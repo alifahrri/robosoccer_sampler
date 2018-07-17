@@ -193,8 +193,8 @@ class Window(QtWidgets.QWidget) :
             strings = self.dataset.str
             while self.ok :
                 self.cvae_sampler.it += 1
-                x_mb, c_mb = self.cvae_sampler.shuffled_data_from_str(256, strings, len(strings))
-                self.cvae_sampler.train_step(x_mb, c_mb)
+                x_mb, c_mb, g_mb = self.cvae_sampler.shuffled_data_from_str(256, strings, len(strings))
+                self.cvae_sampler.train_step(x_mb, c_mb, g_mb)
         self.cvae_sampler.save()
 
     def test(self) :
