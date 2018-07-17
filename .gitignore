@@ -1,0 +1,9 @@
+*.pyc
+build/*
+backup/*
+solutions.txt
+solutions_med.txt
+*.so
+models.*
+checkpoint
+*.c
