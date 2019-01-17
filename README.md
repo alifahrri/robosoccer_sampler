@@ -1,5 +1,5 @@
 # CVAE sampler for robosoccer  
-towards data-driven heuristics for sampling-based motion planning using conditional variational autoencoder
+towards data-driven heuristics for sampling-based motion planning using conditional variational autoencoder (CVAE)
 
 ### you'll need :
 - tensorflow
