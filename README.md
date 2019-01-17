@@ -14,3 +14,4 @@ towards data-driven heuristics for sampling-based motion planning
 - add data collection tools
 
 ## References
+1. [StanfordASL/LearnedSamplingDistributions](https://github.com/StanfordASL/LearnedSamplingDistributions)
